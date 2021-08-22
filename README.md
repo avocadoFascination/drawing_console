@@ -51,5 +51,7 @@ __Sample I/O__
 
 Below is a sample run of the program. User input is prefixed with enter command:
 
+<img width="215" alt="Screen Shot 2021-08-22 at 11 37 51 PM" src="https://user-images.githubusercontent.com/81963599/130372264-1a9f3fb6-f0db-4005-951f-cbbaf0a1ff4c.png">
+
 
 
