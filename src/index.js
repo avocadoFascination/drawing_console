@@ -37,7 +37,6 @@ const converToString = (arr, index) => {
             const h = Number(canvasValues[2]);
             width = Number(canvasValues[1]) + 2;
             canvasArr = createCanvas.drawCanvas(w, h);
-            //C 20 4
             canvas = converToString(canvasArr, width);
             console.log(canvas);
             return;
@@ -46,10 +45,7 @@ const converToString = (arr, index) => {
             const y1 = Number(canvasValues[2]);
             const x2 = Number(canvasValues[3]);
             const y2 = Number(canvasValues[4]);
-            //1 2 6 2
-            //6 3 6 4
-            //console.log('canvasData', canvasData);
-            //console.log('width', width);
+
             canvasArr = drawLine.line(x1, y1, x2, y2, canvasArr, width);
             canvas = converToString(canvasArr, width);
             console.log(canvas);
@@ -60,8 +56,6 @@ const converToString = (arr, index) => {
             const x2 = Number(canvasValues[3]);
             const y2 = Number(canvasValues[4]);
 
-            //14, 1, 18, 3
-
             canvasArr = drawRectangle.rectangle(x1, y1, x2, y2, canvasArr, width);
             canvas = converToString(canvasArr, width);
             console.log(canvas);
@@ -70,8 +64,6 @@ const converToString = (arr, index) => {
             const x = Number(canvasValues[1]);
             const y = Number(canvasValues[2]);
             const c = canvasValues[3];
-
-            //10, 3, 'o'
 
             canvasArr = fillCanvas.fill(x, y, c, canvasArr, width);
             canvas = converToString(canvasArr, width);
