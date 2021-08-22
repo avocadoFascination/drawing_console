@@ -5,7 +5,7 @@ Drawing console writtent in Javascript to create and fill a canvas. The console 
 - Drawing a rectangle
 - Filling in the empty space with color
 
-To run this, start the project with npm *npm i*, then run *node src/commands.js*.
+To run this, start the project with *npm i*, then run *node src/commands.js*.
 To run thes tests, run *npm test*
 
 The console is based on the below instructions:
