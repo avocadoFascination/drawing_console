@@ -9,7 +9,6 @@ To run this, start the project with *npm i*, then run *node src/commands.js*.
 To run thes tests, run *npm test*
 
 The console is based on the below instructions:
-	*** General instructions ***
 
 Programming language preference: java, kotlin, scala.
 Add a readme file with instructions on how to run the program.
@@ -22,7 +21,7 @@ Both test and implementation code will be accessed primarily but not limited to:
 Essentially, up to a level where you would be happy to have somebody look at it and judge your result.
 
 
-*** The Problem ***
+###The Problem###
 
 __Description__
 
